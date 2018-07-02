@@ -1,0 +1,28 @@
+{
+  "name": "webpack-2",
+  "version": "1.0.0",
+  "description": "jsliang webpack study",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "webpack-study"
+  ],
+  "author": "jsliang",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "csv-loader": "^2.1.1",
+    "file-loader": "^1.1.11",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.12.1",
+    "webpack-cli": "^3.0.8",
+    "xml-loader": "^1.2.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}
